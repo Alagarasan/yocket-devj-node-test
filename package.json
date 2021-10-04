@@ -1,0 +1,32 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^3.2.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "http-errors": "~1.6.3",
+    "i": "^0.3.7",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-downloader-helper": "^1.0.18",
+    "npm": "^7.24.1",
+    "request": "^2.88.2",
+    "requests": "^0.3.0"
+  },
+  "//": [
+    "Kindly do not change the version 4.2.3 of mongodbMemoryServer config"
+  ],
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "4.2.3"
+    }
+  }
+}
